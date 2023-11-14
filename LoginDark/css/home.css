@@ -1,0 +1,51 @@
+* {
+    font-family: Helvetica;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 205px;
+    background-image: linear-gradient(
+        rgb(116, 104, 104),
+        rgb(245, 160, 160) 
+    );
+}
+
+h1 {
+    text-align: center; /* Centralizar o Texto */
+}
+
+form {
+    display: flex;          /*Display flex + flex-direction column = para deixar os filhos em coluna*/
+    flex-direction: column;
+    gap: .5rem; /* afasta um filho do outro*/
+    width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+}

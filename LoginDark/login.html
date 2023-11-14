@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="./js/login.js"></script>
+</head>
+
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Faça login <br>E entre para o nosso time</h1>
+            <img src="/img/404.svg" class="left-login-image" alt="Error 404 animação">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>LOGIN</h1>
+                <div class="textfield">
+                    <label for="usuario">Usúario</label>
+                    <input type="text" name="usuario" placeholder="Usuário" id="usuario">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha" id="senha">
+                </div>
+                <button type="submit" onclick="enviar()" class="btn-login">Login</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
